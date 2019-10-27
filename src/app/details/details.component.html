@@ -1,0 +1,37 @@
+
+ <!-- {{'https://maps.googleapis.com/maps/api/place/photo?key=AIzaSyDRtwZNMYyYxhHJdNfR9Vesd6IXK8_W_l0&maxheight=100&photoreference='+result.photos[1].photo_reference}} -->
+
+<!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="{{'https://maps.googleapis.com/maps/api/place/photo?key=AIzaSyDRtwZNMYyYxhHJdNfR9Vesd6IXK8_W_l0&maxheight=100&photoreference='+result.photos[1].photo_reference}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{'https://maps.googleapis.com/maps/api/place/photo?key=AIzaSyDRtwZNMYyYxhHJdNfR9Vesd6IXK8_W_l0&maxheight=100&photoreference='+result.photos[2].photo_reference}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{'https://maps.googleapis.com/maps/api/place/photo?key=AIzaSyDRtwZNMYyYxhHJdNfR9Vesd6IXK8_W_l0&maxheight=100&photoreference='+result.photos[3].photo_reference}}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div> -->
+
+ 
+<div class="card">
+  <div class="card-header">
+    {{result.name}}
+  </div>
+  <div class="card-body">
+    <p class="card-text">Address: {{result.formatted_address}}</p>
+    <p class="card-text">Rating: {{result.rating}}</p>  
+
+    <p class="card-text">Phone Number: {{result.international_phone_number}}</p>
+    <img src="{{'https://maps.googleapis.com/maps/api/place/photo?key=AIzaSyDRtwZNMYyYxhHJdNfR9Vesd6IXK8_W_l0&maxheight=50&photoreference='+result.photos[0].photo_reference}}"  alt="..." width=250px height=250px > 
+    
+    <!-- <a href="{{result.website}}" class="card-link"><h2>Check the official Website!!!</h2></a> -->
+  </div>
+</div>
+
+
+    
+    
+ 
