@@ -376,8 +376,8 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/srilasyasamudrala/Documents/restaurantPlaces/node_modules/bootstrap/dist/css/bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
-module.exports = __webpack_require__(/*! /Users/srilasyasamudrala/Documents/restaurantPlaces/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /Users/srilasyasamudrala/Documents/Lab/restaurantPlaces/node_modules/bootstrap/dist/css/bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
+module.exports = __webpack_require__(/*! /Users/srilasyasamudrala/Documents/Lab/restaurantPlaces/src/styles.css */"./src/styles.css");
 
 
 /***/ })

@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
   <!-- Image and text -->
   <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="http://localhost:3000">
+    <a class="navbar-brand" href="http://ec2-18-217-97-72.us-east-2.compute.amazonaws.com:3000">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI1Qx7FfAb72C6r7CJ4xUFDOBBeYqbZC59zPd76xktxeGl3ZS1&s" width="50" height="50" class="d-inline-block align-top" alt="">
       Restaurant Finder!!!
     </a>
